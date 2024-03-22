@@ -1,0 +1,12 @@
+.hover-effect:hover {
+    background-color: red !important;
+    color: white !important;
+    border-radius: 10%;
+  }
+
+  .aa{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }

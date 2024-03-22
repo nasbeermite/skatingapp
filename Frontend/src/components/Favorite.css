@@ -1,0 +1,13 @@
+.fav-main{
+    background-color: #E5E5E5;
+    padding: 9%;
+}
+.sub-card{
+    padding: 5%;
+}
+.card-div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
