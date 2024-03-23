@@ -73,7 +73,7 @@ const BookingForm = () => {
             required
           />
         </div>
-        <button type="submit">CHECK NOW</button>
+        <button className='form-button' type="submit">CHECK NOW</button>
       </form>
       </div>
     </div>

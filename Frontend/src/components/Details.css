@@ -2,16 +2,12 @@
     text-align: left;
 }
 
-button {
-    /* width: 100%; */
-    padding: 10px;
-    background-color: #0056b3;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-  }
-  button:hover {
-    background-color: #0056b3;
-  }
+.detail-main{
+  padding: 10%;
+  text-align: center;
+
+}
+.card-form-bg{
+  background-color: #E5E5E5;
+  padding: 2%;
+}

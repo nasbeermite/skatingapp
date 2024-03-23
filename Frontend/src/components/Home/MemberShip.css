@@ -1,0 +1,22 @@
+.member-main{
+    padding:7%;
+
+}
+  
+  .membership-header {
+    display: flex;
+    align-items: center;
+    font-size: xx-large;
+    font-weight: 100;
+    margin-bottom:5%;
+  }
+  
+  .horizontal-line {
+    flex-grow: 1;
+    height: 1px;
+    background-color: black;
+  }
+  
+  .membership-text {
+    margin: 0 10px;
+  }

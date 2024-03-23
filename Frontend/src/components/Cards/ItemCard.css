@@ -1,0 +1,15 @@
+
+.item-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 4rem;
+}
+
+
+.item-footer:hover{
+    color: #ffff;
+    background-color: #F26A28; 
+}
+
+
