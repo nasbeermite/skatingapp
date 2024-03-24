@@ -2,9 +2,9 @@ import React, { useState } from 'react';
 import './BookingForm.css'; 
 
 const BookingForm = () => {
-  const [selectedDate, setSelectedDate] = useState(null);
-  const [membership, setMembership] = useState(null);
-  const [selectedSession, setSelectedSession] = useState(null);
+  const [selectedDate, setSelectedDate] = useState("");
+  const [membership, setMembership] = useState("");
+  const [selectedSession, setSelectedSession] = useState("");
   const [numAdmits, setNumAdmits] = useState(0);
 
   const handleDateChange = (event) => {

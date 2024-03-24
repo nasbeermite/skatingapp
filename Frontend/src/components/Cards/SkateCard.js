@@ -1,11 +1,9 @@
 import React from 'react'
 import Card from 'react-bootstrap/Card';
-import image from '../images/image1.JPG'
 import './SkateCard.css'
 
  
 const SkateCard = ({image,skate,price,clr}) => {
-    console.log(clr);
     return (
         <div>
             <Card style={{ maxWidth: '20rem', minHeight: '22rem' }}>

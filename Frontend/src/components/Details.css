@@ -2,12 +2,14 @@
     text-align: left;
 }
 
-.detail-main{
-  padding: 10%;
-  text-align: center;
 
-}
 .card-form-bg{
-  background-color: #E5E5E5;
+  /* background-color: #E5E5E5; */
   padding: 2%;
+}
+.product-main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* width: 100%; */
 }

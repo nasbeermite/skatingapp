@@ -15,7 +15,7 @@ const About = () => {
     return (
         <div>
             <div style={{ width: '100%' }}>
-            <img src={image1} style={{ width: '100%', objectFit: 'cover', height: '20rem' }} alt="a skate ground" />
+                <img src={image1} style={{ width: '100%', objectFit: 'cover', height: '20rem' }} alt="a skate ground" />
             </div>
 
             <div className='p-lg-5' style={{ marginTop: '-10%' }}>
@@ -26,7 +26,7 @@ const About = () => {
                 </Card>
             </div>
 
-            <Container style={{ backgroundColor: '#E5E5E5', padding: '4%' }}>
+            <Container style={{ backgroundColor: '#E5E5E5', padding: '4%' }} className='shadow'>
 
                 <Row className="justify-content-center text-center">
                     <h4>Events</h4>
@@ -42,10 +42,10 @@ const About = () => {
                     ))}
                 </Row>
             </Container>
-<div className='d-flex justify-content-center'>
+            <div className='d-flex justify-content-center'>
 
-<Contact/>
-</div>
+                <Contact />
+            </div>
 
         </div>
     )

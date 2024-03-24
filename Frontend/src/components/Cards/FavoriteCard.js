@@ -15,14 +15,14 @@ const FavoriteCard = ({ image, month, price }) => {
                             <p>PROIN GRAVIDA NIBHVEL LOREM QUIS BIND</p>
                         </Col>
                         <Col xs={12} md={6}>
-                            <p className='fs-6'>Lorem quis bibendum auctor, nisi elit consequat ipsum, sec sagittis sem nibh id elit.</p>
+                            <p className='fs-6 '>Lorem quis bibendum auctor, nisi elit consequat ipsum, sec sagittis sem nibh id elit.</p>
                         </Col>
                     </Row>
                 </CardBody>
                 <CardFooter style={{backgroundColor:'#1CA7C8',color:"white"}} onClick={()=>navigate('/details')}>
                     <Row>
                         <Col xs={12} md={8} >
-                            <p>Duration :{month}</p>
+                            <p className='mb-0'>Duration :{month}</p>
                         </Col>
                         <Col xs={12} md={4}>
                             <b>AED {price}</b>

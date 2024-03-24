@@ -7,7 +7,9 @@ import AfterPayment from './components/Payment/AfterPayment';
 import Header from './frontend_components/Header';
 import Footer from './frontend_components/Footer';
 import UserDetails from './components/UserDetails/UserDetails';
-import About from './components/About/About';
+// import About from './components/About/About';
+import Login from './components/Login';
+
 
 function App() {
   return (
@@ -20,7 +22,9 @@ function App() {
           <Route path="/details" element={<Details />} />
           <Route path="/user" element={<UserDetails />} />
           <Route path="/payment" element={<AfterPayment />} />
-          <Route path="/about" element={<About />} />
+          {/* <Route path="/about" element={<About />} /> */}
+          <Route path="/login" element={<Login />} />
+
         </Routes>
         <Footer />
       </Router>
