@@ -30,10 +30,7 @@
   background: linear-gradient(356deg, rgba(201, 246, 255, 1) 0%, rgba(35, 168, 219, 1) 47%, rgba(38, 126, 195, 1) 94%);
 }
 
-.booking-details h4,
-.booking-details button {
-  margin: 0 5px;
-}
+
 
 .booking-details button {
   padding: 5px 10px;
@@ -45,49 +42,6 @@
   cursor: pointer;
 }
 
-.booking-details h3 {
-  font-weight: bold;
-}
-
-.list-group-item {
-  border: none;
-  padding: 10px;
-}
-
-.cart-item {
-  align-items: center;
-  border-bottom: 1px solid #ddd;
-  padding-bottom: 10px;
-}
-
-.cart-item-image {
-  margin-right: 15px;
-}
-
-.cart-item-details {
-  font-size: 0.8rem;
-}
-
-.cart-item-details p {
-  margin-bottom: 0;
-}
-
-.quantity {
-  font-weight: bold;
-}
-
-.btn-outline-secondary {
-  border-color: #ccc;
-}
-
-.btn-outline-secondary:hover {
-  background-color: #ddd;
-}
-
-.cart-container {
-  border: 1px solid rgba(0, 0, 0, 0.05);
-  padding: 5px;
-}
 
 .cart-container .cart-body {
   border-top: 1px solid rgba(0, 0, 0, 0.05);
