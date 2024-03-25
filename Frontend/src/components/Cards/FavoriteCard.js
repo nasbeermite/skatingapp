@@ -8,7 +8,7 @@ const FavoriteCard = ({ image, month, price }) => {
         <div>
 
             <Card >
-                <CardImg variant="top" src={image} alt='No image' height={300}  style={{ objectFit: 'cover' }} />
+                <CardImg variant="top" src={image} alt='No image'  height={300}  style={{ objectFit: 'cover' }} />
                 <CardBody>
                     <Row>
                         <Col xs={12} md={6}>

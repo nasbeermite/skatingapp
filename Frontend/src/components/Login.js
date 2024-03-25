@@ -8,7 +8,7 @@ import {
     Form,
     Image
 } from 'react-bootstrap';
-import image1 from './images/single.JPG'
+import image1 from './images/single.jpg'
 import logo from './images/logo.png'
 import './Login.css'
 

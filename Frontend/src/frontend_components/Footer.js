@@ -14,7 +14,6 @@ export default function Footer() {
           <Row className='mt-3'>
             <Col md="3" lg="4" xl="3" className='mx-auto mb-4'>
               <h6 className='text-uppercase fw-bold mb-4'>
-                {/* <FontAwesomeIcon icon={faGem} className="me-3" /> */}
                 Skate Gate
               </h6>
               <p>
@@ -22,7 +21,7 @@ export default function Footer() {
                 consectetur adipisicing elit.
               </p>
             </Col>
-
+{/* 
             <Col md="2" lg="2" xl="2" className='mx-auto mb-4'>
               <h6 className='text-uppercase fw-bold mb-4'>Services</h6>
               <p>
@@ -45,35 +44,26 @@ export default function Footer() {
                 Ice Dance 
                 </a>
               </p>
-            </Col>
+            </Col> */}
 
        
             <Col md="4" lg="3" xl="3" className='mx-auto mb-md-0 mb-4'>
               <h6 className='text-uppercase fw-bold mb-4'>Contact</h6>
               <p>
-                {/* <FontAwesomeIcon icon={faHome} className="me-2" /> */}
                 Ajman 
               </p>
               <p>
-                {/* <FontAwesomeIcon icon={faEnvelope} className="me-3" /> */}
                 skategate@example.com
               </p>
-              <p>
-                {/* <FontAwesomeIcon icon={faPhone} className="me-3" /> + 01 234 567 88 */}
-              </p>
-              <p>
-                {/* <FontAwesomeIcon icon={faPrint} className="me-3" /> + 01 234 567 89 */}
-              </p>
+             
             </Col>
           </Row>
         </Container>
       </section>
 
       <div className='text-center p-4' style={{ backgroundColor: 'rgba(0, 0, 0, 0.05)' }}>
-        © 2024 Copyright:
-        <a className='text-reset fw-bold' >
-          skategate.com
-        </a>
+      © 2024 Copyright:
+  
       </div>
     </footer>
   );

@@ -1,10 +1,10 @@
 import React from 'react'
 import './MemberShip.css'
 import { Container, Row, Col } from 'react-bootstrap';
-import member1 from '../images/dance2.JPG'
-import member2 from '../images/hockey.JPG'
-import member3 from '../images/dance4.JPG'
-import member4 from '../images/coach.JPG'
+import member1 from '../images/dance2.jpg'
+import member2 from '../images/hockey.jpg'
+import member3 from '../images/dance4.jpg'
+import member4 from '../images/coach.jpg'
 
 
 

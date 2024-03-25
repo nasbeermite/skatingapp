@@ -1,10 +1,10 @@
 import React, { useState, useRef } from 'react';
-import './Cart.css';
+import './Test.css';
 import penguin from './images/product1.png';
-import single from './images/single.JPG';
+import single from './images/single.jpg';
 
 function Test() {
-  const [expanded, setExpanded] = useState(false);
+  const [expanded, setExpanded] = useState(true);
 
   const expandedContainerRef = useRef();
 
@@ -20,6 +20,7 @@ function Test() {
     newQuantities[index] = value;
     setQuantities(newQuantities);
   };
+  
 
 
 

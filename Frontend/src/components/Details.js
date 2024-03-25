@@ -1,11 +1,10 @@
 import React, { useState } from 'react';
-import { Row, Col, Container, Image } from 'react-bootstrap';
+import { Row, Col, Container, Image, Card } from 'react-bootstrap';
 import img1 from './images/product1.png';
 import img2 from './images/Dolphin.jpeg';
 import img3 from './images/helmet.png';
 import img4 from './images/stick.jpg';
-import img5 from './images/group2.JPG';
-import './Details.css';
+import img5 from './images/group2.jpg';
 import Test from './Test';
 import ProductCard from './Cards/ProductCard';
 
@@ -28,48 +27,51 @@ const Details = () => {
   return (
     <div className='mt-5'>
       <Container>
-              <div>
-              <Row className="align-items-center shadow-lg ">
-                <Col xs={12} md={6}  >
-                  <Image src={img5} alt="Hockey" style={{ objectFit: 'cover', maxHeight: '100%', maxWidth: '100%',marginTop:'2%',marginBottom:'2%'}} />
-                </Col>
-                <Col xs={12} md={6} className='text-align p-2'>
-                  <h3>{heading}</h3>
-                  <h5>{subHeading}</h5>
-                  <p className='text-align'>{text}</p>
-                </Col>
-              </Row>
-              </div>
-        
+        <div className='mb-5'>
+          <Card className='p-2'>
 
-  <div className='d-flex justify-content-center p-4'> 
-    <h3>SKATE PRODUCTS</h3>
-  </div>
+            <Row className="align-items-center" style={{ borderRadius: '20px' }}>
+              <Col xs={12} md={6}  >
 
-  <div className='mt-5'>
-    <Row xs={1} md={2} lg={4} className='g-4'> 
-      <Col className='mt-3'>
-        <ProductCard image={img3} name="Helmet" />
-      </Col>
-      <Col className='mt-3'>
-        <ProductCard image={img2} name="Seal"/>
-      </Col>
-      <Col className='mt-3'>
-        <ProductCard image={img1} name="Penguin"/>
-      </Col>
-      <Col className='mt-3'>
-        <ProductCard image={img4} name="Stick"/>
-      </Col>
-    </Row>
-  </div>
+                <Image src={img5} alt="Hockey" className='w-100' style={{ objectFit: 'cover', maxHeight: '100%', }} />
+              </Col>
+              <Col xs={12} md={6} className='p-2'>
+                <h3>{heading}</h3>
+                <h5>{subHeading}</h5>
+                <p>{text}</p>
+              </Col>
+            </Row>
+          </Card>
+        </div>
 
-    <div>
-</div>
+        <div className='d-flex justify-content-center'>
+          <h3>SKATE PRODUCTS</h3>
+        </div>
+
+        <div className='mt-5'>
+          <Row xs={1} md={2} lg={4} className='g-4'>
+            <Col className='mt-3'>
+              <ProductCard image={img3} name="Helmet" />
+            </Col>
+            <Col className='mt-3'>
+              <ProductCard image={img2} name="Seal" />
+            </Col>
+            <Col className='mt-3'>
+              <ProductCard image={img1} name="Penguin" />
+            </Col>
+            <Col className='mt-3'>
+              <ProductCard image={img4} name="Stick" />
+            </Col>
+          </Row>
+        </div>
+
+        <div>
+        </div>
 
 
 
 
-        <div className='mt-lg-5 card-form-bg shadow-lg mt-4'>
+        <div className='mt-5'>
           <h5 className='title-bg'>BOOK NOW</h5>
           <div className="booking-body">
             <form className="row g-4">

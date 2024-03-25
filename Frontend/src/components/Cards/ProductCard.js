@@ -3,11 +3,10 @@ import './ProductCard.css'
 
 const ProductCard = ({ image, name }) => {
     return (
-        <div className="product-card shadow-lg">
+        <div className="product-card shadow">
             <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '20rem' }}>
                 <img src={image} alt="Product" style={{ maxWidth: '100%', maxHeight: '100%', objectFit: 'cover' }} />
             </div>
-
             <div className="product-content">
                 <p className="text-1">
                     stock 25+

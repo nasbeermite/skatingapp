@@ -1,6 +1,6 @@
 import React from 'react';
 import './UserDetails.css'
-import cardimg1 from '../images/carousal1.JPG'
+import cardimg1 from '../images/carousal1.jpg'
 import { useNavigate } from 'react-router-dom';
 
 
