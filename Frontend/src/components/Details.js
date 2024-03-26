@@ -5,7 +5,6 @@ import img2 from '../images/Dolphin.jpeg';
 import img3 from '../images/helmet.png';
 import img4 from '../images/stick.jpg';
 import imag6 from '../images/carousal1.jpg'
-import ImageLoader from './ImageLoader';
 import Test from './Test';
 import ProductCard from './Cards/ProductCard';
 
@@ -33,7 +32,7 @@ const Details = () => {
 
             <Row className="align-items-center" style={{ borderRadius: '20px' }}>
               <Col xs={12} md={6}>
-                <ImageLoader 
+                <Card.Img 
                src={imag6} alt="Hockey" height={300} style={{ objectFit: 'cover', width: '100%' }} />
               </Col>
               <Col xs={12} md={6} className='p-2'>

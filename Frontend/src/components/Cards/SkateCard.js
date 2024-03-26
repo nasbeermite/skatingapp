@@ -1,14 +1,13 @@
 import React from 'react'
 import Card from 'react-bootstrap/Card';
 import './SkateCard.css'
-import ImageLoader from '../ImageLoader';
 
  
 const SkateCard = ({image,skate,price,clr}) => {
     return (
         <div>
             <Card style={{ maxWidth: '25rem', minHeight: '22rem' }}>
-                <ImageLoader variant="top" height={390} src={image} loading='lazy' className='object-fit-cover' />
+                <Card.Img variant="top" height={390} src={image} loading='lazy' className='object-fit-cover' />
                 <Card.Footer className='skate-footer' style={{ backgroundColor: clr,color:'white' }}>
                     <div className='skate-hover'>{skate} </div> 
                     <div className='skate-hover'>{price}</div>

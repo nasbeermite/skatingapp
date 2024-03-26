@@ -1,9 +1,11 @@
 import React from 'react';
+import './Preloader.css'
 
 const Preloader = () => {
   return (
-    // <div className="preloader">
+    <div className="preloader">
     <div className="loader">
+
     <div className="bar1"></div>
     <div className="bar2"></div>
     <div className="bar3"></div>
@@ -17,7 +19,7 @@ const Preloader = () => {
     <div className="bar11"></div>
     <div className="bar12"></div>
 </div>  
-//   </div>
+  </div>
   );
 };
 
