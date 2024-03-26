@@ -2,9 +2,8 @@ import React from 'react';
 import { Row, Container } from 'react-bootstrap';
 import HomeCarousel from './HomeCarousel';
 import BookingForm from '../BookingForm';
-import image1 from '../images/single.jpg'
-import image2 from '../images/playing.jpg'
-
+import image1 from '../../images/single.jpg'
+import image2 from '../../images/playing.jpg'
 import Favorite from './Favorite';
 import SkateCard from '../Cards/SkateCard';
 import MemberShip from './MemberShip';
@@ -39,8 +38,6 @@ const HomePage = () => {
       </Container>
        <Favorite/>
        <MemberShip/>
-      
-    
     </div>
   );
 };

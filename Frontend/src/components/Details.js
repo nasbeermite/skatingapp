@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
 import { Row, Col, Container, Image, Card } from 'react-bootstrap';
-import img1 from './images/product1.png';
-import img2 from './images/Dolphin.jpeg';
-import img3 from './images/helmet.png';
-import img4 from './images/stick.jpg';
-import img5 from './images/group2.jpg';
+import img1 from '../images/product1.png';
+import img2 from '../images/Dolphin.jpeg';
+import img3 from '../images/helmet.png';
+import img4 from '../images/stick.jpg';
+import imag6 from '../images/carousal1.jpg'
 import Test from './Test';
 import ProductCard from './Cards/ProductCard';
 
@@ -32,8 +32,7 @@ const Details = () => {
 
             <Row className="align-items-center" style={{ borderRadius: '20px' }}>
               <Col xs={12} md={6}  >
-
-                <Image src={img5} alt="Hockey" className='w-100' style={{ objectFit: 'cover', maxHeight: '100%', }} />
+                <Image src={imag6} alt="Hockey" height={300} style={{ objectFit: 'cover', width: '100%' }} />
               </Col>
               <Col xs={12} md={6} className='p-2'>
                 <h3>{heading}</h3>
@@ -44,7 +43,7 @@ const Details = () => {
           </Card>
         </div>
 
-        <div className='d-flex justify-content-center'>
+        <div className='d-flex justify-content-center' style={{marginTop:'10%'}} >
           <h3>SKATE PRODUCTS</h3>
         </div>
 
@@ -68,10 +67,7 @@ const Details = () => {
         <div>
         </div>
 
-
-
-
-        <div className='mt-5'>
+        <div style={{marginTop:'10%'}}>
           <h5 className='title-bg'>BOOK NOW</h5>
           <div className="booking-body">
             <form className="row g-4">

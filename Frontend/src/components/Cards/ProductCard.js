@@ -4,8 +4,8 @@ import './ProductCard.css'
 const ProductCard = ({ image, name }) => {
     return (
         <div className="product-card shadow">
-            <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '20rem' }}>
-                <img src={image} alt="Product" style={{ maxWidth: '100%', maxHeight: '100%', objectFit: 'cover' }} />
+            <div className='d-flex justify-content-center align-content-center' style={{height:"20rem"}}>
+                <img src={image} alt="Product" className='mw-100 mh-100 object-fit-cover'/>
             </div>
             <div className="product-content">
                 <p className="text-1">

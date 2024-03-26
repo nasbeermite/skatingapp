@@ -1,5 +1,5 @@
 import React from 'react'
-import image from '../images/image1.jpg'
+import image from '../../images/carousal1.jpg'
 import { Card, CardBody, Row, Col, CardTitle } from "react-bootstrap";
 import './AfterPayment.css'
 

@@ -1,15 +1,18 @@
 
-.item-footer {
+.item-card {
+    max-width: 25rem;
+    min-height: 23rem;
+  }
+  
+  .item-footer {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 4rem;
-}
-
-
-.item-footer:hover{
-    color: #ffff;
-    background-color: #F26A28; 
-}
-
-
+  }
+  
+  .item-footer:hover {
+    color: #fff;
+    background-color: #F26A28;
+  }
+  

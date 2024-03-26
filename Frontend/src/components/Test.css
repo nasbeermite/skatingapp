@@ -2,7 +2,7 @@
   position: fixed;
   bottom: 0px;
   width: 100% !important;
-  background-color: #ffff;
+  background: linear-gradient(356deg, rgba(201, 246, 255, 1) 0%, rgba(35, 168, 219, 1) 47%, rgba(38, 126, 195, 1) 94%);
   padding: 20px;
   border-top-right-radius: 40px !important;
   border-top-left-radius: 40px;
@@ -10,7 +10,7 @@
 }
 
 .scrollable-content {
-  max-height: 30rem;
+  max-height: 25rem;
   overflow-y: auto;
   padding: 1rem;
 }
@@ -26,12 +26,7 @@
   align-items: center;
   padding: 20px;
   color: white;
-  background: rgb(201, 246, 255);
-  background: linear-gradient(356deg, rgba(201, 246, 255, 1) 0%, rgba(35, 168, 219, 1) 47%, rgba(38, 126, 195, 1) 94%);
 }
-
-
-
 .booking-details button {
   padding: 5px 10px;
   border: none;
@@ -41,8 +36,6 @@
   color: white;
   cursor: pointer;
 }
-
-
 .cart-container .cart-body {
   border-top: 1px solid rgba(0, 0, 0, 0.05);
   border-bottom: 1px solid rgba(0, 0, 0, 0.05);

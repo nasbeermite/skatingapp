@@ -1,7 +1,7 @@
 import React, { useState, useRef } from 'react';
 import './Test.css';
-import penguin from './images/product1.png';
-import single from './images/single.jpg';
+import penguin from '../images/product1.png';
+import single from '../images/single.jpg'
 
 function Test() {
   const [expanded, setExpanded] = useState(true);

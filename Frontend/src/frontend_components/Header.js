@@ -2,7 +2,7 @@ import React from 'react';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import logo from '../components/images/logo.png';
+import logo from '../images/logo.png'
 import './Header.css';
 import { useNavigate } from 'react-router-dom';
 const Header = () => {
