@@ -1,11 +1,12 @@
 import React from 'react';
 import './ProductCard.css'
+import ImageLoader from '../ImageLoader';
 
 const ProductCard = ({ image, name }) => {
     return (
         <div className="product-card shadow">
             <div className='d-flex justify-content-center align-content-center' style={{height:"20rem"}}>
-                <img src={image} alt="Product" className='mw-100 mh-100 object-fit-cover'/>
+                <ImageLoader src={image} alt="Product" className='mw-100 mh-100 object-fit-cover'/>
             </div>
             <div className="product-content">
                 <p className="text-1">

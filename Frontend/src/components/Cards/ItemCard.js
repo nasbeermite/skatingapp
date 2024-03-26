@@ -2,6 +2,7 @@ import React from 'react'
 import Card from 'react-bootstrap/Card';
 import './ItemCard.css'
 import { useNavigate } from 'react-router-dom';
+import ImageLoader from '../ImageLoader';
 
 const ItemCard = ({ image, title, ft, stock }) => {
     const navigate = useNavigate()
@@ -9,7 +10,7 @@ const ItemCard = ({ image, title, ft, stock }) => {
         <div>
 
             <Card className="item-card">
-                <Card.Img variant="top" height={200} src={image} style={{ objectFit: 'cover' }} />
+                <ImageLoader variant="top" height={200} src={image} style={{ objectFit: 'cover' }} loading='lazy' />
                 <Card.Body>
                     <Card.Text className="text-center">{title}</Card.Text>
                     <hr />
