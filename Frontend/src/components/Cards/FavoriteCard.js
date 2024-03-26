@@ -3,12 +3,13 @@ import { Card, CardBody, Row, Col, CardFooter } from 'react-bootstrap';
 import { useNavigate } from 'react-router-dom';
 
 const FavoriteCard = ({ image, month, price }) => {
+    
     const navigate =useNavigate()
     return (
         <div>
 
             <Card >
-                <Card.Img variant="top" src={image} alt='No image'  height={300}   style={{ objectFit: 'cover' }} />
+                <Card.Img variant="top" src={image} alt='No image'  height={300} loading='la'   style={{ objectFit: 'cover' }} />
                 <CardBody>
                     <Row>
                         <Col xs={12} md={6}>

@@ -32,7 +32,6 @@ export default function Favorite() {
         ))}
       </Row>
 
-
     </div>
   );
 }
