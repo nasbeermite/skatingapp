@@ -26,11 +26,10 @@ const Header = () => {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="w-100 justify-content-end">
             <Nav.Link onClick={() => navigate('/')} className='px-4  hover-effect'>Home</Nav.Link>
-            {/* <Nav.Link href="/about" className='px-4  hover-effect'>About</Nav.Link> */}
-            <Nav.Link onClick={() => navigate('/')} className='px-4  hover-effect'>About</Nav.Link>
+            <Nav.Link onClick={() => navigate('/about')} className='px-4  hover-effect'>About</Nav.Link>
             <Nav.Link onClick={() => navigate('/details')} className='px-4  hover-effect'>Details</Nav.Link>
             <Nav.Link onClick={() => navigate('/payment')} className='px-4  hover-effect'>Payment</Nav.Link>
-            <Nav.Link onClick={() => navigate('/')} className='px-4  hover-effect'>Contact&nbsp;</Nav.Link>
+            <Nav.Link onClick={() => navigate('/contact')} className='px-4  hover-effect'>Contact&nbsp;</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

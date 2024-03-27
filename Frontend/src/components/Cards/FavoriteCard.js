@@ -9,14 +9,14 @@ const FavoriteCard = ({ image, month, price }) => {
         <div>
 
             <Card >
-                <Card.Img variant="top" src={image} alt='No image'  height={300} loading='la'   style={{ objectFit: 'cover' }} />
+                <Card.Img variant="top" src={image} alt='No image'  height={300}   style={{ objectFit: 'cover' }} />
                 <CardBody>
                     <Row>
                         <Col xs={12} md={6}>
                             <p>PROIN GRAVIDA NIBHVEL LOREM QUIS BIND</p>
                         </Col>
                         <Col xs={12} md={6}>
-                            <p className='fs-6 '>Lorem quis bibendum auctor, nisi elit consequat ipsum, sec sagittis sem nibh id elit.</p>
+                            <p className='fs-6'>Lorem quis bibendum auctor, nisi elit consequat ipsum, sec sagittis sem nibh id elit.</p>
                         </Col>
                     </Row>
                 </CardBody>

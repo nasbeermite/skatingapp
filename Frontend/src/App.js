@@ -7,6 +7,8 @@ import Header from './frontend_components/Header';
 import Footer from './frontend_components/Footer';
 import UserDetails from './components/UserDetails/UserDetails';
 import Login from './components/Login';
+import About from './components/About/About';
+import Contact from './components/Contact/Contact';
 
 
 const MainLayout = ({ children }) => (
@@ -28,8 +30,8 @@ function App() {
           <Route path="/details" element={<MainLayout><Details /></MainLayout>} />
           <Route path="/user" element={<MainLayout><UserDetails /></MainLayout>} />
           <Route path="/payment" element={<MainLayout><AfterPayment /></MainLayout>} />
-
-
+          <Route path='/about' element={<MainLayout><About/></MainLayout>}/>
+          <Route path='/contact' element={<MainLayout><Contact/></MainLayout>}/>
 
           <Route path="/login" element={<Login />} />
         </Routes>
