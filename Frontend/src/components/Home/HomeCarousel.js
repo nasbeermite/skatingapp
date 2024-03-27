@@ -11,14 +11,16 @@ const HomeCarousel = () => {
       <Carousel>
         <Carousel.Item interval={1000}>
           <ExampleCarouselImage src={image1}/>
+          <div className="overlay"></div> {/* Add overlay */}
           <Carousel.Caption className="text-center">
-            <h1 className="fw-bold fs-lg-1 fs-sm-3 shadow-text">ENJOY WITH YOUR FAMILY</h1>
+            <h1 id="btitle" className="fw-bold  fs-sm-3 shadow-sm tm-banner-title text-uppercase">Enjoy <span class="tm-yellow-text">With Your</span> Family</h1>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
           <ExampleCarouselImage src={image3} />
-          <Carousel.Caption className="text-center">
-            <h1 className="fw-bold fs-lg-1 fs-sm-5 shadow-text">HAPPY KIDS MAKE YOU HAPPY</h1>
+          <div className="overlay"></div> {/* Add overlay */}
+          <Carousel.Caption className="text-center ">
+            <h1 id="ctitle" className="fw-bold  fs-sm-5 shadow-sm tm-banner-title text-uppercase">Happy Kids  <span class="tm-yellow-text">Make You </span> Happy</h1>
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>

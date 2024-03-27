@@ -37,7 +37,7 @@ const BookingForm = () => {
   return (
     <div>
       <h5 className='title-bg'>BOOK NOW</h5>
-      <div className="booking-container">
+      <div className="booking-container effect2">
 
       <form onSubmit={handleSubmit}>
         <div className="booking-field">
