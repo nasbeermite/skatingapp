@@ -4,15 +4,15 @@ import { Container, Row, Col } from 'react-bootstrap';
 export default function Footer() {
   return (
     <footer className='bg-light text-center text-lg-start text-muted'>
-        <section className='d-flex justify-content-center justify-content-lg-between p-4 border-bottom'>
+        {/* <section className='d-flex justify-content-center justify-content-lg-between p-4 border-bottom'>
         <div className='me-5 d-none d-lg-block'>
         </div>
-        </section>
+        </section> */}
 
-      <section className=''>
+      <section className='mt-5 pt-3'>
         <Container className='text-center text-md-start mt-5'>
           <Row className='mt-3'>
-            <Col md="3" lg="4" xl="3" className='mx-auto mb-4'>
+            <Col md="2" lg="4" xl="3" className='mx-auto mb-4'>
               <h6 className='text-uppercase fw-bold mb-4'>
                 Skate Gate
               </h6>
@@ -62,7 +62,7 @@ export default function Footer() {
       </section>
 
       <div className='text-center p-4' style={{ backgroundColor: 'rgba(0, 0, 0, 0.05)' }}>
-      © 2024 Copyright:
+      © 2024 <a href="https://mitesolutions.com">Mite Solutions LLC</a>
   
       </div>
     </footer>
